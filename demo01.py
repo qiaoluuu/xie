@@ -25,6 +25,20 @@ print("input输入的内容是：",a+b)    #结果
 
 
 #len()函数：计算字符串的长度
-a = input("请输入：")   #输入和赋值
-b = input("请输入：")
-print("input输入的内容是：",len(a+b))  #输出的是字符串
+# a = input("请输入：")   #输入和赋值
+# b = input("请输入：")
+# print("input输入的内容是：",len(a+b))  #输出的是字符串
+
+
+
+"""
+练习
+获取用户的个人信息，并且存放到字典中
+个人信息包括name\age\sex
+"""
+name = input("请输入姓名：")
+age = input("请输入年龄：")
+sex = input("请输入性别：")
+useriofo = {}
+useriofo.update(name = name,age = age,sex = sex)
+print(useriofo)
